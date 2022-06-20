@@ -38,9 +38,10 @@ header {
 
 /* =============== ME ================== */
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
+    background: #ebe6e6c9;
+    
+    width: 15rem;
+    height: 20rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
@@ -62,7 +63,7 @@ header {
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ========= */
 @media screen and (max-width: 1024px) {
     .container{
-        background: red;
+        background: rgb(192, 206, 195);
     }
     header {
         height: 68vh;
@@ -72,7 +73,7 @@ header {
 /* ================ MEDIA QUERIES (SMALL DEVICES) ========= */
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 79vh;
     }
 
     .header__socials, .scroll__down {
